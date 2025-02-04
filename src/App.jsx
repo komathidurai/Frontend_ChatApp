@@ -11,7 +11,7 @@ import { useState, useEffect } from 'react';
 
 
 
-const GET_USER_INFO = "/api/user-info"; // Replace with actual API route
+const GET_USER_INFO = "/api/auth/user-info"; // Replace with actual API route
 
 
 const PrivateRoute = ({children}) => {
