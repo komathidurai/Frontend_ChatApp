@@ -21,8 +21,10 @@ const PrivateRoute = ({children}) => {
 };
 
 const AuthRoute = ({ children }) => {
-  const userInfo = useAppStore((state) => state.userInfo);
- return userInfo ? <Navigate to="/chat" /> : children;
+  
+  const {userInfo} = useAppStore();
+  const isAuthenticated = !!userInfo;
+ return isAuthenticated ? <Navigate to="/chat"/> : children;
 };
 
 

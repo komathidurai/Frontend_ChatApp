@@ -17,7 +17,7 @@ const Chat = () => {
     }
  },[userInfo, navigate]);
 
-  return <div>chat</div>
+  return <div></div>
   
 };
 
