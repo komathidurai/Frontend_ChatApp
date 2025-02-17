@@ -1,6 +1,6 @@
 import Lottie from "react-lottie"
 import React from 'react'
-import { animationDefaultOptions } from "@/lib/utils";
+
 
 const EmptyChatContainer = () => {
   return (
